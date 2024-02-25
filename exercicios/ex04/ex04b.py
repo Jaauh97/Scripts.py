@@ -1,0 +1,11 @@
+a = input('Digite Algum Caractere : ')
+
+print ('{} Pertence a qual tipo primitivo ?'.format(a) , type(a))
+print ('{} É Alfa Numérico ?' .format(a), a.isalnum())
+print ('{} É decimal ?'.format(a), a.isdecimal())
+print ('{} Tem Somente letras Maiúsculas ?'.format(a), a.isupper())
+print ('{} Tem Somente letras Minúsculas ?'.format(a), a.islower())
+print ('{} Tem Letra ?'.format(a), a.isalpha())
+print ('{} É alfa Numérico ?'.format(a), a.isalnum())
+print ('{} É Numero ?'.format(a), a.isnumeric())
+print ('{} É Somente um espaço ?'.format(a), a.isspace())
