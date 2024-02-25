@@ -1,12 +1,6 @@
-#nome=input('Ola , Qual seu nome?')
+nome = input ('Ola , Digite Seu Nome:')
 
-#print('Ola,',nome,'Bem Vindo')
-
-num1 = int (input ('Digite um Numero'))
-num2 = int (input ('Digite outro Numero'))
-s = num1+num2
-
-print('A Soma entre',num1,'e',num2,'e de ', s)
+print('É um prazer te conhecer {}'.format(nome));
 
 
 
