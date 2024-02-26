@@ -1,3 +1,5 @@
-print('Digite o valor em Real que deseja converter em Dolar')
-reais = float(input('Valor: '))
-print('Com {}R$, você irá comprar {:.2f} Dolares.'.format(reais, (reais*4.98)))
+print('>>> Digite o valor em Real que deseja converter em Dolar')
+reais = float(input('Valor R$: '))
+print('>>> Digite o valor em Dolar')
+atualdol = float(input('Valor atual do Dolar: '))
+print('Com {}R$, você irá comprar {:.2f} Dolares.'.format(reais, reais/atualdol))
