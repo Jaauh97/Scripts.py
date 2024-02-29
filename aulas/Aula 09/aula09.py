@@ -4,7 +4,7 @@ dividido = frase.split()
 
 
 
-#print(dividido[2][3])
+print(dividido[2][3])
 #print(dividido[0])
 
 
