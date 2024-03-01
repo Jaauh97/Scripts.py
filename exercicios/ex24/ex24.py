@@ -1,6 +1,8 @@
-city = str(input('Nome de uma cidade: '))
-print('Essa cidade possui a palavra SANTO em seu nome:', 'santo'in city)
+city = str(input('Nome de uma cidade: ')).strip()
+print('Essa cidade possui a palavra SANTO em seu nome:','santo' in city)
 
 
-cid = str(input('Nome da cidade: '))
-print(cid[0:5].upper() == 'SANTO')
+
+#correção
+cid = str(input('Digite o nome de uma cidade: ')).strip()
+print(cid[:5].upper() == 'SANTO')
