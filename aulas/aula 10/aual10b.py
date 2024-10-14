@@ -1,8 +1,10 @@
-nota1 = float(input('Digite Sua Nota: '))
-nota2 = float(input('Digite Sua 2 Nota: '))
-r = (nota1 + nota2)/2
-print('Sua Nota final foi de {}.'.format(r))
-if r >=6.0:
-    print('Voce passou de ano. ')
+nota = float(input('Digite a nota do primeiro semestre: '))
+nota1 = float(input('Digite a nota do segundo semestre: '))
+m = (nota + nota1)/2
+
+
+print('A sua média doi de {:.1f}'.format(m))
+if m >= 10.0:
+    print('Você passou , Parabéns')
 else:
-    print('Voce está de recuperação .')
+    print('Você está de recuperação')

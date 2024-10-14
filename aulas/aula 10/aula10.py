@@ -1,7 +1,6 @@
-nome = str(input('Qual Seu Nome?')).upper()
-if nome == 'JOAO':
-    print('Que Nome Bonito')
+nome=str(input('Qual seu nome?'))
+if nome == 'João Pedro':
+    print('Que nome bonito você tem. Bom dia , {}'.format(nome))
 else:
-    print('Seu Nome é tão normal')
-    
-    print('Bom dia , {}'.format(nome))
+    print('Seu nome é muito comum')
+print('Bom dia {}'.format(nome))    
