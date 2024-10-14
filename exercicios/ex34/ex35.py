@@ -8,10 +8,7 @@ else:
     print('Seu salário é {} e seu aumento foi de {}'.format(sal,sal2))
     print(sal2)
     
-    \\correção
+
     
-sala = float(input('Digite seu salário R$: ')) 
-if sala <= 1250: 
-    novo = sala + (sala*15 / 100)
-else:
+
     

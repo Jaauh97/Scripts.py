@@ -1,0 +1,1 @@
+num = int(input('Me diga um Número qualquer: '))
