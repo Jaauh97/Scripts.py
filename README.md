@@ -1,2 +1,2 @@
 # scripts-python
- Meus Estudos em python
+ Tudo que venho estudando em python !!
