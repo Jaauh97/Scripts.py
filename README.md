@@ -1,2 +1,3 @@
 # scripts-python
- Tudo que venho estudando em python !!
+ AOBA , Baum ? 
+ Aqui estão o começo dos meus estudo em python .
