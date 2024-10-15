@@ -10,7 +10,7 @@ print('=-='*20)
 numusu = int(input('Vou pensar em número entre 0 e 5 , tente advinhar:  '))
 #jogador tenta advinhar
 print('PENSANDO...')
-sleep(4)
+sleep(2)
 print('=-='*20)
 
 if numusu == num1:
