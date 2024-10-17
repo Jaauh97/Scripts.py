@@ -1,7 +1,7 @@
 #Importações de bibliotecas do python
 from time import sleep
 from random import randint
-
+from tokenize import endpats
 
 #Àrea do menu inicial
 print('-=' * 11)
@@ -11,15 +11,16 @@ print('JokenPoo')
 print('-=' * 11)
 
 #Declarações de variávies
-lista =  ('Pedra' 'Papel' 'Tesoura')
+lista =  ('Pedra', 'Papel', 'Tesoura')
 computador = randint (0 , 2)
-print('-=' * 11)
+
+
 #Menu de opções
 print('''Suas Opções:
-[ 1 ] Pedra
-[ 2 ] Papel
+[ 0 ] Pedra
+[ 1 ] Papel
 [ 2 ] Tesoura''')
-jogador = int(input('Qual sua jogada ? '))
+jogador = int(input('Qual sua jogada: '))
 
 #Textinho animado
 sleep(1)
@@ -30,11 +31,12 @@ sleep(1)
 print('Pooooooo')
 sleep(1)
 
+
 #Os resultados são informados
 print('-=' * 11)
 print('O computador escolheu {}'.format(lista[computador]))
 #Essa funçao faz com que no format sejam puxados itens dentro de uma lista , nesse caso pedra 0 , papel 1 ,tesoura 2
-print('O jogadorescolheu {}'.format(lista[jogador]))
+print('O jogador escolheu {}'.format(lista[jogador]))
 #Essa funçao faz com que no format sejam puxados itens dentro de uma lista , nesse caso o número que o jogador digitou é puxado da lista
 print('-=' * 11)
 
