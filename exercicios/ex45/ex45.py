@@ -3,7 +3,7 @@ from time import sleep
 
 itens = ('Pedra', 'Papel', 'Tesoura')
 comp = randint(0, 2)
-2
+
 print('''Suas Opções:
 [ 0 ] Pedra
 [ 1 ] Papel
