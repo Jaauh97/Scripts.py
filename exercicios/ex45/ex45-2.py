@@ -13,7 +13,7 @@ print('-=' * 11)
 #Declarações de variávies
 lista =  ('Pedra' 'Papel' 'Tesoura')
 computador = randint (0 , 2)
-
+print('-=' * 11)
 #Menu de opções
 print('''Suas Opções:
 [ 1 ] Pedra
