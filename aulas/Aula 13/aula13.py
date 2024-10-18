@@ -4,7 +4,7 @@ for c in range(0 , 3):
 print('FIM')
 
 
-for c in range(0, 3+1): # Estrutura básica de repetição com for , para números
+for c in range(0, 3+1): # Estrutura básica de repetição com for, para números
     print(c)
 
 print('FIM')
@@ -12,7 +12,7 @@ print('FIM')
 
 
 for c in range(0 ,9 , 2):
-     print(c) #adiciona um número após a virgula para que a contagem possa pular
+     print(c) #adiciona um número após a vírgula para que a contagem possa pular
 
 
 n = int(input('Digite um número: '))
